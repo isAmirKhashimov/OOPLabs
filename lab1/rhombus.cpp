@@ -4,7 +4,7 @@
 double Rhombus::Area()
 {
 	return apixes[0].DistanceTo(apixes[2])
-		* apixes[1].DistanceTo(apixes[3]) / 2;
+		* apixes[1].DistanceTo(apixes[3]) / 2.0;
 }
 
 Rhombus::Rhombus(std::istream& inputStream)
