@@ -1,5 +1,8 @@
 #pragma once
+#ifndef POINT_H_INCLUDED
+#define POINT_H_INCLUDED
 #include <string>
+#include <cmath>
 
 struct Point {
 	double x, y;
@@ -18,3 +21,5 @@ struct Point {
 			+ (y - endPoint.y) * (y - endPoint.y));
 	}
 };
+
+#endif

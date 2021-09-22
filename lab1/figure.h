@@ -1,4 +1,7 @@
 #pragma once
+#ifndef FIGURE_H_INCLUDED
+#define FIGURE_H_INCLUDED
+
 #include <ostream>
 #include "point.h"
 #include <vector>
@@ -14,3 +17,4 @@ public:
 	virtual void Print(std::ostream& os);
 };
 
+#endif
