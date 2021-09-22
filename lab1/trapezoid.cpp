@@ -1,5 +1,6 @@
 #include "trapezoid.h"
 #include <iostream>
+#include <cmath>
 
 double Trapezoid::Area()
 {
@@ -16,10 +17,11 @@ double Trapezoid::Area()
 		sqrt((vec1.x * vec1.x + vec1.y * vec1.y) * (vec2.x * vec2.x + vec2.y * vec2.y));
 
 	double sinFi = sqrt(1 - cosFi * cosFi);
+
 	double d1 = apixes[0].DistanceTo(apixes[2]);
 	double d2 = apixes[1].DistanceTo(apixes[3]);
 
-	return d1 * d2 * sinFi / 2.0;
+	return d1 * d2 * sinFi * 0.5;
 
 }
 
