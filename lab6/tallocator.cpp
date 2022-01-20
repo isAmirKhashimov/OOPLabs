@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "tallocator.h"
 
 TAllocator::TAllocator(int elmSize, int bnchSize)

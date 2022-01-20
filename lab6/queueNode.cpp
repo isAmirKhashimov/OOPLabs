@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "queueNode.h"
 #define sNode std::shared_ptr<QueueNode<T>>
 

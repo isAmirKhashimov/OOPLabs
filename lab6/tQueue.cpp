@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "tQueue.h"
 #include <string>
 #define sNode std::shared_ptr<QueueNode<T>>

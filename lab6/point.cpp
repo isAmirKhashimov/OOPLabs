@@ -1,5 +1,4 @@
 //POINT.CPP
-#include "stdafx.h"
 #include "point.h"
 
 #include <cmath>
